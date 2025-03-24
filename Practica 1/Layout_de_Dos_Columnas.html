@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. Layout "Dos Columnas"</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .column {
+            padding: 20px;
+        }
+        .left {
+            flex: 1;
+            background-color: #f0f0f0;
+        }
+        .right {
+            flex: 2;
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column left">Columna Izquierda</div>
+        <div class="column right">Columna Derecha</div>
+    </div>
+</body>
+</html>
